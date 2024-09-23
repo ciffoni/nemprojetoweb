@@ -1,0 +1,62 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("fundo.jpg");
+}
+header{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+header figure img{
+max-width: 100px;
+max-height: 50px;
+}
+#principal{
+    background-color: blue;
+   color: red;
+   width: 800px;
+   height: 600px; 
+}
+.conteudo1{
+    margin:20px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.conteudo2{
+    margin: 40px;
+    position: relative;
+    top: -140px;
+    left: 100px;
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    background-color: maroon;
+    color: white;
+    overflow: hidden;
+}
+nav a:hover{
+    color:black;
+    text-decoration: none;
+}
+nav a:link{
+    color: pink;
+}
+nav a:visited{
+    color: aqua;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 13px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
