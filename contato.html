@@ -7,10 +7,19 @@
 <body>
     <h1>Entre em contato</h1>
     <!--enviar para email conforme o metodo get ou POST-->
-    <form action="mailto:ciffoni@gmail.com" method="get" enctype="text/plain">
+    <form action="contato.php" method="POST" enctype="text/plain">
         <label> Nome:</label> <input type="text" name="nome"><br>
         <label>e-mail:</label><input type="email" name="email"><br>
         <label>Observação:</label><textarea name="obs"></textarea><br>
+        <label> receber mensagem</label><input type="radio" name="mensagem" value="sim">Sim 
+        <input type="radio" name="mensagem" value="nao">Não<br>
+        <p><label> Genero</label><select name="genero">
+            <option value="Escolher">Escolher</option>
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select></p>
+        <label> Escolher a foto</label><input type="file" name="foto">
+
         <input type="submit" name="enviar" value="Enviar">
         <input type="reset" name="apagar" value="cancelar">
     </form>
